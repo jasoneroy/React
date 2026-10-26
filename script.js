@@ -1,7 +1,6 @@
-var h1 = React.createElement('h1',null,'I am Neeraj Kalme')
-var h2 = React.createElement('h2',null,'I am Developer')
-
-var div = React.createElement('div',{id:'container'},[h1,h2])
+function h1(){
+    return React.createElement('h1',null,'Hi I am Neeraj Kalme')
+}
 
 var root = ReactDOM.createRoot(document.querySelector('#container'))
-root.render(div)
+root.render(h1())
